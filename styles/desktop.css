@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+
+
+.header, .header-nav, .header-nav ul {
+  align-items: center;
+  display: flex;
+}
+.header, .header-nav {
+  gap: 70px;
+}
+.header-nav ul, .nav-button {
+  color: var(--font-color);
+  font-family: var(--font-roboto);
+}
+
+.nav-button, .section-one-button {
+  border: 1px solid var(--font-color);
+  border-radius: 6px;
+  font-weight: 600;
+  height: 44px;
+  transition: 0.3s ease;
+  width: 216.89px;
+}
+.nav-button, .button-two {
+  background-color: transparent;
+}
+
+.button-one, .button-two {
+  color: white;
+}
+.button-one:hover, .button-two:hover {
+  box-shadow: 0 0 10px var(--font-color);
+}
+
+/*  -- HEADER --  */
+
+
+.header {
+  height: 76px;
+  justify-content: center;
+}
+
+.header div svg {
+  width: 84.42px;
+  height: 29.54px;
+}
+
+.header-nav ul {
+  gap: 20px;
+  list-style: none;
+}
+
+
+.nav-button:hover {
+  background-color: var(--font-color);
+  color: white;
+}
+
+
+
+/* -- SECTION ONE -- */
+
+.section-one {
+  /* background-color: var(--back-color); */
+  background-image: url('../asserts/bg_img.jpg');
+  background-size: cover;
+  height: 757px;
+  width: 100%;
+}
+
+.button-one {
+  background-color: var(--font-color);
+}
