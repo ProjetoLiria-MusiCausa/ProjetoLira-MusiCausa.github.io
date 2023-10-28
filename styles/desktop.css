@@ -2,7 +2,7 @@
 
 
 
-.header, .header-nav, .header-nav ul {
+.header, .header-nav, .header-nav ul, .section-one, .div-info-one {
   align-items: center;
   display: flex;
 }
@@ -62,13 +62,61 @@
 /* -- SECTION ONE -- */
 
 .section-one {
-  /* background-color: var(--back-color); */
   background-image: url('../asserts/bg_img.jpg');
   background-size: cover;
   height: 757px;
+  justify-content: space-evenly;
   width: 100%;
 }
 
 .button-one {
   background-color: var(--font-color);
+}
+
+.div-info {
+  width: 564px;
+}
+
+.div-info-one {
+  gap: 10px;
+  margin-bottom: 45px;
+}
+.div-info-one span {
+  color: #cda2f0d6;
+  font-family: var(--font-inter);
+  font-weight: 600;
+}
+
+.div-info-two h1 {
+  color: white;
+  font-family: var(--font-katibeh);
+  font-size: 64px;
+  line-height: 44.8px;
+  margin-bottom: 10px;
+}
+.div-info-two p {
+  color: #E6DDEE;
+  font-family: var(--font-inter);
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 20px;
+  font-weight: 400px;
+}
+
+.div-info-tree button:nth-child(1) {
+  margin-right: 20px;
+}
+
+
+.div-svg {
+  bottom: -9.7%;
+  height: 619.06px;
+  position: relative;
+  width: 651.36px;
+}
+.div-svg-one, .div-svg-two {
+  position: absolute;
+}
+.div-svg-two {
+  bottom: 0px;
 }
