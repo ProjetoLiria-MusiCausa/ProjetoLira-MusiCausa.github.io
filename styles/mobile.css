@@ -1,0 +1,153 @@
+@media (max-width: 1024px) {
+  .section-one {
+    padding: 0 10px;
+  }
+
+  .div-info-one span {
+    font-size: 16.5px;
+  }
+
+  .div-info-two h1 {
+    font-size: 54px;
+  }
+  .div-info-two p {
+    font-size: 18px;
+  }
+
+  .div-svg-one svg {
+    transform: translateY(20px);
+  }
+
+  .div-svg-two {
+    bottom: -1%;
+    left: 6%;
+  }
+
+  .div-svg-music #svg-1 {
+    top: 70%;
+    left: -10%;
+  }
+  .div-svg-music #svg-2 {
+    top: 26%;
+    left: -8%;
+  }
+  .div-svg-music #svg-3 {
+    top: 10%;
+    left: 24%;
+  }
+  .div-svg-music #svg-4 {
+    top: 16%;
+    left: 70.2%;
+  }
+  .div-svg-music #svg-5 {
+    top: 33%;
+    left: 80%;
+  }
+  .div-svg-music #svg-6 {
+    top: 77%;
+    left: 80%;
+  }
+
+  .div-svg-two .svg-human {
+    height: 519.06px;
+    width: 551.36px;
+  }
+}
+
+@media (max-width: 800px) {
+  /* body {
+    overflow: hidden;
+  } */
+
+  .header-nav-responsive, .menu-hamburger {
+    display: flex;
+  }
+  .menu-hamburger, .menu-hamburger hr {
+    border: none;
+  }
+
+  .header-nav-responsive ul li {
+    font-weight: 600;
+  }
+
+  .header {
+    justify-content: space-between;
+    padding-left: 20px;
+    position: relative;
+  }
+
+  .menu-hamburger {
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    width: 80px;
+  }
+  .menu-hamburger hr {
+    background-color: var(--font-color);
+    height: 3px;
+    margin-bottom: 5px;
+    width: 30%;
+  }
+
+  .header-nav {
+    display: none;
+  }
+
+  .header-nav-responsive {
+    background-color: hsla(0, 0%, 100%, 0.932);
+    flex-direction: column;
+    height: 100vh;
+    left: 100%;
+    overflow: hidden;
+    position: absolute;
+    padding: 15px 0 0 15px;
+    top: 100%;
+    transition: 0.3s ease;
+    width: 0%;
+    z-index: 5;
+  }
+  .header-nav-responsive ul li {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .header-nav-responsive .nav-button {
+    margin-top: 50px;
+  }
+
+  .section-one {
+    flex-direction: column;
+    height: 100%;
+    overflow: visible;
+    padding-top: 40px;
+  }
+
+  .div-info {
+    margin-bottom: 40px;
+  }
+
+  .div-svg-one {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .div-svg-two {
+    left: 60%;
+    transform: translateX(-60%);
+  }
+
+  .div-svg-music #svg-1 {
+    height: 39.76px;
+    width: 37.66px;
+  }
+  .div-svg-music #svg-3 {
+    height: 45.02px;
+    width: 43.35px;
+  }
+  .div-svg-music #svg-6 {
+    height: 50.58px;
+    width: 48.68px;
+  }
+}
