@@ -5,7 +5,8 @@
 .header-nav,
 .header-nav ul,
 .section-one,
-.div-info-one {
+.div-info-one,
+.section-two {
   align-items: center;
   display: flex;
 }

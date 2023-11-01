@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+
+/* -- SECTION TWO -- */
+
+.section-two {
+  height: 52rem;
+  gap: 30px;
+  justify-content: center;
+}
+
+.section-two .div-project {
+  width: 45%;
+}
