@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+
+/*  -- HEADER --  */
+
+.header {
+  height: 76px;
+  justify-content: center;
+  width: 100%;
+}
+
+.header div svg {
+  width: 84.42px;
+  height: 29.54px;
+}
+
+.header-nav ul {
+  gap: 20px;
+}
+
+
+.nav-button:hover {
+  background-color: var(--font-color);
+  color: white;
+}
