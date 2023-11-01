@@ -4,7 +4,7 @@
 /*  -- HEADER --  */
 
 .header {
-  height: 76px;
+  height: 4.8rem;
   justify-content: center;
   width: 100%;
 }
@@ -16,6 +16,9 @@
 
 .header-nav ul {
   gap: 20px;
+}
+.header-nav ul li {
+  font-size: 1rem;
 }
 
 

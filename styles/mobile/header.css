@@ -2,6 +2,16 @@
 
 
 
+@media (max-width: 1064px) {
+  .header-nav ul {
+    gap: 13px;
+  }
+
+  .nav-button {
+    width: 200.89px;
+  }
+}
+
 @media (max-width: 980px) {
   .header-nav-responsive, .menu-hamburger {
     display: flex;
@@ -61,4 +71,8 @@
     margin-top: 50px;
   }
 
+}
+
+@media (max-width: 600px) {
+  
 }

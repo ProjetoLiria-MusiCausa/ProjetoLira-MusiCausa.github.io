@@ -1,17 +1,17 @@
-@media (max-width: 1024px) {
+@media (max-width: 1210px) {
   .section-one {
     padding: 0 10px;
   }
 
   .div-info-one span {
-    font-size: 16.5px;
+    font-size: 1.01rem;
   }
 
   .div-info-two h1 {
-    font-size: 54px;
+    font-size: 3.4rem;
   }
   .div-info-two p {
-    font-size: 18px;
+    font-size: 1.1rem;
   }
 
   .div-svg-one svg {
@@ -88,5 +88,124 @@
   .div-svg-music #svg-6 {
     height: 50.58px;
     width: 48.68px;
+  }
+}
+
+@media (max-width: 680px) {
+  .div-svg {
+    height: 449.06px;
+  }
+
+  .div-info {
+    margin-bottom: 5px;
+  }
+
+  .div-svg-one svg {
+    transform: translateY(60px);
+  }
+
+  .div-svg-two {
+    bottom: -0.5%;
+  }
+  .div-svg-music #svg-4 {
+    top: 12%;
+    left: 70.2%;
+  }
+  .div-svg-two .svg-human {
+    height: 419.06px;
+    width: 451.36px;
+  }
+}
+
+@media (max-width: 600px) {
+  
+  .div-info {
+    width: 90%;
+  }
+
+  .div-info-two h1 {
+    font-size: 2.7rem;
+  }
+
+  .div-info-tree .section-one-button {
+    width: 200px;
+  }
+  .div-info-tree button:nth-child(1) {
+    margin-right: 0;
+  }
+
+  .div-svg {
+    width: 100%;
+  }
+
+  .div-svg-one svg {
+    height: 310px;
+    transform: translateY(80px);
+    width: 479px;
+  }
+   .div-svg-two {
+    left: 55%;
+    bottom: -0.5%;
+  }
+  .div-svg-music #svg-1 {
+    height: 46.89px;
+    left: 3%;
+    width: 44.79px;
+  }
+  .div-svg-music #svg-2 {
+    height: 75.66px;
+    width: 76.67px;
+  }
+  .div-svg-music #svg-3 {
+    height: 38.66px;
+    left: 19%;
+    top: 0%;
+    width: 40.67px;
+  }
+  .div-svg-music #svg-4 {
+    height: 35.59px;
+    left: 75%;
+    top: -10%;
+    width: 37.53px;
+  }
+  .div-svg-music #svg-5 {
+    height: 36.34px;
+    left: 90%;
+    top: 25%;
+    width: 38.29px;
+  }
+  .div-svg-music #svg-6 {
+    height: 30.86px;
+    left: 85%;
+    width: 32.19px;
+  }
+  .div-svg-two .svg-human {
+    height: 319.06px;
+    left: 30%;
+    width: 351.36px;
+  }
+}
+
+@media (max-width: 470px) {
+  .div-info {
+    margin-bottom: -5rem;
+  }
+
+  .div-svg-one svg {
+    transform: translateY(110px);
+  }
+
+  .div-svg-two {
+    bottom: -3.7%;
+  }
+
+  .div-svg-two .svg-human {
+    height: 295.03px;
+    left: 30%;
+    width: 285.36px;
+  }
+
+  .div-info-tree button:nth-child(1) {
+    margin-bottom: 10px;
   }
 }
