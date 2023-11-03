@@ -68,7 +68,7 @@
 
 @media screen and (max-width: 450px) {
   .section-two {
-    margin-bottom: 380px;
+    margin: 0 auto 380px;
   }
 
   .div-project {
