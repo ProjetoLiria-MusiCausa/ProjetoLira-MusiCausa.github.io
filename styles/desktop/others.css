@@ -1,6 +1,12 @@
 @charset "utf-8";
 
 
+.section-one, .section-two {
+  margin: auto;
+  max-width: 1440px;
+}
+
+
 .header,
 .header-nav,
 .header-nav ul,

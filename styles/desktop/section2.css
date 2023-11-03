@@ -9,6 +9,37 @@
   justify-content: center;
 }
 
-.section-two .div-project {
+
+.div-project {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  height: 452px;
+  padding: 20px 20px 20px 0;
   width: 45%;
+}
+.div-project h2 {
+  color: var(--font-color-title-two);
+  font-family: var(--font-katibeh);
+  font-size: 4rem;
+  line-height: 44.8px;
+}
+.div-project p {
+  color: var(--font-color-text-p);
+  font-family: var(--font-inter);
+  font-size: 1rem;
+}
+
+.div-project-img {
+  height: 497px;
+  width: 513px;
+}
+.div-project-img-res {
+  display: none;
+}
+.div-project-img img,
+.div-project-img-res img
+{
+  height: 100%;
+  width: 100%;
 }

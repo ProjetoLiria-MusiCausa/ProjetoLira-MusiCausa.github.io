@@ -59,6 +59,7 @@
   .section-one {
     flex-direction: column;
     height: 100%;
+    margin-bottom: 30px;
     overflow: visible;
     padding-top: 40px;
   }
@@ -73,6 +74,7 @@
   }
 
   .div-svg-two {
+    bottom: -0.9%;
     left: 60%;
     transform: translateX(-60%);
   }
