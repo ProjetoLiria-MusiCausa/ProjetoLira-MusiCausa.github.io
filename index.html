@@ -18,10 +18,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Katibeh&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 <body>
     <header class="header">
-      <div>
+      <div data-aos="fade-down">
         <svg width="572" height="135" viewBox="0 0 572 135" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M230.346 43.6549C230.346 37.8299 230.103 33.4611 229.618 30.5486C229.133 27.4742 228.162 24.8853 226.705 22.7818C225.249 20.6784 222.903 18.2512 219.667 15.5005L221.851 12.3453H264.083L265.782 16.2287C262.06 18.3321 259.39 20.1929 257.772 21.811C256.154 23.4291 255.022 25.4517 254.374 27.8788C253.889 30.3059 253.646 34.1083 253.646 39.2862V107.002C253.646 112.18 254.374 115.578 255.831 117.196C257.287 118.814 260.523 119.623 265.539 119.623H274.762C279.455 119.623 283.176 118.086 285.927 115.012C288.678 111.776 291.509 105.708 294.422 96.8085L299.276 98.5075V127.633L296.849 129.817C294.745 128.199 292.399 127.066 289.81 126.419C287.221 125.934 283.338 125.691 278.16 125.691H218.453L216.997 121.322C221.042 120.19 223.955 119.138 225.735 118.167C227.515 117.034 228.728 115.578 229.375 113.798C230.023 112.018 230.346 109.268 230.346 105.546V43.6549Z" fill="#7E1ECB"/>
           <path d="M338.832 111.857C338.832 116.711 340.369 119.138 343.443 119.138C346.518 119.138 349.511 117.924 352.424 115.497L354.365 117.924C348.379 124.558 341.34 127.875 333.25 127.875C327.425 127.875 323.218 126.419 320.629 123.507C318.04 120.432 316.745 115.497 316.745 108.701V60.6447C316.745 58.3794 315.694 57.2467 313.59 57.2467H306.066L305.338 54.5769C308.574 51.8262 312.619 49.5609 317.473 47.781C322.328 46.0011 327.182 45.1112 332.036 45.1112C333.978 45.1112 335.596 45.5966 336.89 46.5675C338.185 47.5383 338.832 48.8328 338.832 50.4508V111.857ZM339.317 5.79211C345.304 8.21922 348.298 11.8599 348.298 16.7141C348.298 22.3773 344.738 26.4225 337.618 28.8496L317.716 36.1309L314.561 32.2475L339.317 5.79211Z" fill="#7E1ECB"/>
@@ -31,7 +35,7 @@
           <path fill-rule="evenodd" clip-rule="evenodd" d="M87.1751 7.81193C78.3518 17.1914 71.533 30.1575 68.3009 43.7038C62.9335 66.1964 67.4854 92.5301 79.9539 111.108C84.1399 117.346 93.4109 126.789 95.3482 126.789C97.2155 126.789 106.112 117.617 110.56 111.108C123.021 92.871 127.647 66.2405 122.269 43.7038C119.037 30.1575 112.218 17.1914 103.395 7.81193C99.3527 3.51551 95.7036 0 95.2848 0C94.8661 0 91.217 3.51551 87.1751 7.81193ZM32.5137 26.6632C32.2659 27.0647 31.289 30.1979 30.3439 33.6269C27.6285 43.4762 28.0617 60.537 31.3006 71.364C35.9745 86.985 43.4521 99.1625 54.7844 109.607C61.5109 115.807 68.7485 120.659 75.3646 123.404L78.978 124.903L74.5788 118.927C68.5823 110.782 62.9402 98.6121 60.0192 87.5229C56.9129 75.7305 56.4538 54.4415 59.0789 43.8844C59.9741 40.2853 60.706 36.9408 60.706 36.4528C60.706 35.9639 57.7879 34.0938 54.2206 32.2976C44.3205 27.3115 33.8008 24.5817 32.5137 26.6632ZM147.153 27.7265C140.504 29.9088 129.864 35.279 129.864 36.4538C129.864 36.9417 130.596 40.2853 131.491 43.8844C134.116 54.4415 133.657 75.7305 130.55 87.5229C127.653 98.5237 122.041 110.603 115.989 118.865C113.57 122.167 111.827 124.868 112.115 124.868C112.402 124.868 114.893 123.729 117.649 122.337C137.824 112.149 152.384 94.3205 159.278 71.364C162.563 60.4265 162.893 42.6098 159.998 32.6578C158.314 26.8716 157.97 26.399 155.309 26.204C153.729 26.0878 150.059 26.7727 147.153 27.7265ZM12.6799 74.623C11.3591 74.843 7.96562 75.6738 5.1388 76.4682L0 77.9119L0.651236 81.4591C2.69139 92.5656 9.79829 104.543 20.219 114.434C33.8248 127.348 52.9969 135.011 69.88 134.281L76.5546 133.993L71.0384 131.407C50.1009 121.594 31.2016 100.45 24.6269 79.4833L22.895 73.9603L18.9876 74.0909C16.8389 74.1629 14.0006 74.4021 12.6799 74.623ZM165.98 79.3651C159.365 100.455 140.522 121.569 119.531 131.407L114.015 133.993L120.69 134.281C138.253 135.04 156.711 127.529 171.078 113.775C180.821 104.448 187.938 92.2438 189.917 81.4696L190.566 77.933L185.448 76.4134C182.633 75.5768 177.499 74.6298 174.039 74.3089L167.75 73.724L165.98 79.3651Z" fill="#7E1ECB"/>
         </svg>
       </div>
-      <nav class="header-nav">
+      <nav class="header-nav" data-aos="fade-up">
         <ul>
           <li>Nossa História</li>
           <li>Projetos</li>
@@ -68,7 +72,12 @@
       </nav>
     </header>
     <section class="section-one">
-      <div class="div-info">
+      <div
+        class="div-info"
+        data-aos="fade-right"
+        data-aos-duration="500"
+        data-aos-delay="300"
+      >
         <div class="div-info-one">
           <svg width="19" height="22" viewBox="0 0 19 22" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g filter="url(#filter0_b_1391_97)">
@@ -99,7 +108,12 @@
           </button>
         </div>
       </div>
-      <div class="div-svg">
+      <div
+        class="div-svg"
+        data-aos="zoom-out-left"
+        data-aos-duration="500"
+        data-aos-delay="500"
+      >
         <div class="div-svg-one">
           <svg width="579" height="410" viewBox="0 0 579 410" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g filter="url(#filter0_b_1011_4731)">
@@ -226,21 +240,23 @@
     </section>
     <section class="section-two">
       <div class="div-project">
-        <h2>Transformação através da música</h2>
-        <div class="div-project-img-res">
+        <h2 data-aos="fade-right" data-aos-delay="200" data-aos-duration="300">
+          Transformação através da música
+        </h2>
+        <div class="div-project-img-res" data-aos="zoom-in" data-aos-duration="300">
           <img src="asserts/img_section_two_513_x_497.png" alt="Imagem dos alunos da ong Lira MusiCausa" />
         </div>
-        <p>
+        <p data-aos="fade-right" data-aos-duration="400">
           A Associação Cultural Líria surgiu com a iniciativa de suas fundadoras, Dayane de Paula e Débora Lima, no ano de 2017, com o objetivo de, através da música, transformar a vida de crianças e adolescentes que sofrem todo o tipo de violência no município de Almirante Tamandaré.
         </p>
-        <p>
+        <p data-aos="fade-right" data-aos-duration="400">
           Surgimos com o objetivo de oferecer a estes jovens, oportunidades de desenvolver aptidões musicais, além de promover saúde mental e emocional.
         </p>
-        <p>
+        <p data-aos="fade-right" data-aos-duration="400">
           Hoje conduzido por Samuel Lima nosso projeto tem o objetivo de desenvolver, com a participação de alunos e parceiros, conteúdo audiovisual para promover outras iniciativas sociais. Dessa forma, desenvolvemos aptidões técnicas e criativas dos envolvidos e fomentamos as boas práticas do terceiro setor, através de um trabalho colaborativo e de impacto social.
         </p>
       </div>
-      <div class="div-project-img">
+      <div class="div-project-img" data-aos="fade-left">
         <img src="asserts/img_section_two_513_x_497.png" alt="Imagem dos alunos da ong Lira MusiCausa" />
       </div>
     </section>

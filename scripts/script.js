@@ -1,3 +1,5 @@
+AOS.init();
+
 const btnMenuHamburger = document.querySelector('.menu-hamburger');
 const headerResponsive = document.querySelector('.header-nav-responsive');
 
