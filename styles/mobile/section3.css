@@ -1,0 +1,71 @@
+@media screen and (max-width: 1100px) {
+  .div-apresentation-title h2,
+  .div-apresentation-title p {
+    text-align: center;
+  }
+
+
+  .section-tree {
+    height: 100%;
+  }
+
+  .div-apresentation-title {
+    width: 100%;
+  }
+
+  .div-apresentation-title h3 {
+    width: 100%;
+  }
+
+  .div-apresentations {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width:760px) {
+  .div-apresentation-title {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .div-apresentation-one:hover,
+  .div-apresentation-two:hover {
+    transform: scale(1.02);
+  }
+
+  .div-apresentation-title h2 {
+    font-size: 3.3rem;
+  }
+
+  .div-apresentation-title p {
+    font-size: 1.1rem;
+  }
+
+  .div-apresentation-one,
+  .div-apresentation-two {
+    height: 100%;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .div-apresentation-title h2 {
+    font-size: 2rem;
+    line-height: 25.6px;
+  }
+  .div-apresentation-title p {
+    font-size: 0.9rem;
+    line-height: 21px;
+  }
+
+  .div-apresentation-one h3,
+  .div-apresentation-two h3 {
+    font-size: 1.5rem;
+  }
+  .div-apresentation-one p,
+  .div-apresentation-two p {
+    font-size: 0.9rem;
+  }
+}

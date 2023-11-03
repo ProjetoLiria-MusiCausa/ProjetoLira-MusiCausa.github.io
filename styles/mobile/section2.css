@@ -29,7 +29,7 @@
 @media screen and (max-width: 990px) {
   .section-two {
     height: 100%;
-    margin: 15px auto;
+    margin: 10px auto 80%;
     padding: 15px 0;
   }
 
@@ -58,13 +58,26 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 560px) {
+  .section-two {
+    height: 100%;
+    margin-bottom: 520px;
+    padding: 15px 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .section-two {
+    margin-bottom: 380px;
+  }
+
   .div-project {
     margin: auto;
     width: 80%;
   }
   .div-project h2 {
-    font-size: 2.8rem;
+    font-size: 2rem;
+    line-height: 25.6px;
   }
   .div-project p {
     font-size: 0.9rem;

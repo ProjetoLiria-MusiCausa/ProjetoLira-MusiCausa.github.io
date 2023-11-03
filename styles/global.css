@@ -7,10 +7,13 @@
 :root {
   --font-color: #7E1ECB;
   --font-color-title-two: #19002E;
+  --font-color-title-tree: #FCFDFF;
+  --font-color-title-for: #0A114D;
   --font-color-text-p: #0A0E33;
 
 
   --back-color: #240041;
+  --back-color-two: #0A114D;
 
 
   --font-roboto: 'Roboto', sans-serif;
@@ -24,6 +27,17 @@ body {
 
 button {
   cursor: pointer;
+}
+
+h2 {
+  font-family: var(--font-katibeh);
+}
+h3 {
+  color: var(--font-color-title-for);
+}
+
+p {
+  font-family: var(--font-inter);
 }
 
 ul {
