@@ -1,0 +1,24 @@
+@media screen and (max-width: 650px) {
+  .section-for,
+  .div-discord-title,
+  .div-discord-info p {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 486px) {
+  .div-discord-title h2 {
+    font-size: 2rem;
+    line-height: 25.6px;
+  }
+
+  .div-discord-btn button {
+    font-size: 0.9rem;
+    height: 48px;
+    width: 216.89px;
+  }
+
+  #svg_discord {
+    width: 23.89px;
+  }
+}

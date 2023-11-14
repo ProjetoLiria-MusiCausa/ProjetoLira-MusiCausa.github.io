@@ -3,7 +3,8 @@
 
 .section-one,
 .section-two,
-.section-tree {
+.section-tree,
+.section-for {
   margin: auto;
   max-width: 1440px;
 }
@@ -16,7 +17,10 @@
 .div-info-one,
 .section-two,
 .section-tree,
-.div-apresentations {
+.section-for,
+.div-apresentations,
+.div-discord-title,
+.div-discord-btn {
   align-items: center;
   display: flex;
 }

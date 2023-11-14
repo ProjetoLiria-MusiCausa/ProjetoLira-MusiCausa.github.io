@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+
+/* --- SECTION FOR --- */
+.section-for,
+.div-discord-title,
+.div-discord-btn {
+  flex-direction: column;
+}
+.div-discord-title h2,
+.div-discord-info p {
+  text-align: center;
+}
+
+
+.section-for {
+  height: 833px;
+  justify-content: center;
+}
+
+.div-discord-title {
+  gap: 50px;
+  width: 520px;
+}
+.div-discord-title h2 {
+  font-size: 4rem;
+  line-height: 44.8px;
+  text-align: center;
+}
+
+.div-discord-info {
+  margin-bottom: 30px;
+}
+.div-discord-info p {
+  font-family: var(--font-roboto);
+  font-size: 1rem;
+  line-height: 25.6px;
+  width: 590px;
+}
+
+.div-discord-btn {
+  gap: 20px;
+}
+.div-discord-btn span {
+  font-family: var(--font-roboto);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.div-discord-btn button {
+  align-items: center;
+  background-color: var(--font-color);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  display: flex;
+  font-family: var(--font-roboto);
+  font-weight: 700;
+  gap: 7px;
+  justify-content: space-between;
+  padding: 14px 21px;
+}
