@@ -4,7 +4,8 @@
 .section-one,
 .section-two,
 .section-tree,
-.section-for {
+.section-for,
+.footer {
   margin: auto;
   max-width: 1440px;
 }
@@ -20,7 +21,11 @@
 .section-for,
 .div-apresentations,
 .div-discord-title,
-.div-discord-btn {
+.div-discord-btn,
+.footer,
+.div-contact,
+.footer-nav ul,
+.footer-nav-icons ul {
   align-items: center;
   display: flex;
 }
@@ -34,7 +39,8 @@
 
 .header-nav ul,
 .header-nav-responsive ul,
-.nav-button {
+.nav-button,
+.footer-nav ul {
   color: var(--font-color);
   font-family: var(--font-roboto);
 }
@@ -88,4 +94,11 @@
 .div-apresentation-one:hover,
 .div-apresentation-two:hover {
   transform: scale(1.07);
+}
+
+.header-nav ul, .footer-nav ul {
+  gap: 20px;
+}
+.header-nav ul li, .footer-nav ul li {
+  font-size: 1rem;
 }

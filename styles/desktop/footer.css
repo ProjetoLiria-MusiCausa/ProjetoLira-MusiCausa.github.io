@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+
+.footer-hr, .div-authorship p {
+  color: #F5F6FF;
+}
+
+
+.footer {
+  background-color: var(--back-color-two);
+  flex-direction: column;
+  height: 331px;
+  padding: 80px 64px;
+}
+
+.div-contact {
+  justify-content: space-between;
+  margin-bottom: 70px;
+  width: 100%;
+}
+
+.footer-nav ul li {
+  color: white;
+  font-weight: 600;
+}
+
+.footer-nav-icons i {
+  color: white;
+  height: 32px;
+  width: 32px;
+}
+
+.footer-hr {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.div-authorship p {
+  font-family: var(--font-roboto);
+  font-weight: 400;
+  text-align: center;
+}
