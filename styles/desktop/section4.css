@@ -15,7 +15,7 @@
 
 .section-for {
 
-  /* Para aparecer esta seção basta apagar a linha com o comando "display: none" */
+  /* Para aparecer esta seção basta apagar a linha abaixo com o comando "display: none" */
   display: none;
   height: 833px;
   justify-content: center;
