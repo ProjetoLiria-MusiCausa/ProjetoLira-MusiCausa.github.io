@@ -27,7 +27,7 @@
   .header {
     justify-content: space-between;
     padding-left: 20px;
-    position: relative;
+    width: 100vw;
   }
   
   .menu-hamburger {
@@ -74,5 +74,13 @@
 }
 
 @media (max-width: 600px) {
-  
+  .header {
+    height: 64px;
+  }
+
+  .menu-hamburger hr {
+    height: 2px;
+    margin-bottom: 3px;
+    width: 30%;
+  }
 }
