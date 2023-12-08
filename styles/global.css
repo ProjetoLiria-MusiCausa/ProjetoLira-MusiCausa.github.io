@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --font-color: #7E1ECB;
   --font-color-title-two: #19002E;

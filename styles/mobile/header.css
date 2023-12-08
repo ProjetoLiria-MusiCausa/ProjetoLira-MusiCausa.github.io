@@ -50,13 +50,13 @@
   }
   
   .header-nav-responsive {
-    background-color: hsla(0, 0%, 100%, 0.932);
+    background-color: #ffffffee;
     flex-direction: column;
     height: 100vh;
     left: 100%;
     overflow: hidden;
     position: absolute;
-    padding: 15px 0 0 15px;
+    padding: 25px 0 0 15px;
     top: 100%;
     transition: 0.3s ease;
     width: 0%;
@@ -78,6 +78,9 @@
     height: 64px;
   }
 
+  .menu-hamburger {
+    width: 70px;
+  }
   .menu-hamburger hr {
     height: 2px;
     margin-bottom: 3px;
