@@ -1,6 +1,10 @@
 @charset "utf-8";
 
 
+.header nav ul li a:hover, .header nav ul li a:hover i {
+  color: white;
+}
+
 /*  -- HEADER --  */
 
 .header {
@@ -20,10 +24,15 @@
 }
 .header nav ul li a:hover {
   background-color: var(--font-color);
-  color: white;
 }
 
 .nav-button:hover {
   background-color: var(--font-color);
   color: white;
+}
+
+.nav-button a i {
+  color: var(--font-color);
+  font-size: 25px;
+  margin-right: 5px;
 }

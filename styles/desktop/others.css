@@ -25,7 +25,9 @@
 .footer,
 .div-contact,
 .footer-nav ul,
-.footer-nav-icons ul {
+.footer-nav-icons ul,
+.nav-button a,
+.button-one a {
   align-items: center;
   display: flex;
 }
@@ -65,7 +67,10 @@
 }
 
 
-.section-tree, .div-apresentation {
+.section-tree,
+.div-apresentation,
+.nav-button a,
+.button-one a {
   justify-content: center;
 }
 

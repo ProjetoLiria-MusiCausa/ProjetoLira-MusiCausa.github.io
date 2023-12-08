@@ -14,6 +14,14 @@
 .button-one {
   background-color: var(--font-color);
 }
+.button-one a {
+  color: white;
+}
+.button-one a i {
+  color: white;
+  font-size: 25px;
+  margin-right: 5px;
+}
 
 .div-info {
   width: 564px;
