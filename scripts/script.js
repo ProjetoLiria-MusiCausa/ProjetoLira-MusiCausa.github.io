@@ -1,5 +1,6 @@
 AOS.init();
 
+const bodyElement = document.querySelector('body');
 const btnMenuHamburger = document.querySelector('.menu-hamburger');
 const headerResponsive = document.querySelector('.header-nav-responsive');
 
@@ -23,5 +24,13 @@ btnMenuHamburger.addEventListener('click', () => {
       headerResponsive.style.left = '25%';
     }
     activeMenu = 1;
+  }
+});
+
+bodyElement.addEventListener('touchmove', () => {
+  if (activeMenu === 1) {
+    headerResponsive.style.width = '0%';
+    headerResponsive.style.left = '100%';
+    activeMenu = 0;
   }
 })
