@@ -70,6 +70,7 @@
 
   .div-svg-one {
     left: 50%;
+    width: 100%;
     transform: translateX(-50%);
   }
 
@@ -104,6 +105,7 @@
 
   .div-svg-one svg {
     transform: translateY(60px);
+    width: 100%;
   }
 
   .div-svg-two {
@@ -144,9 +146,9 @@
   }
 
   .div-svg-one svg {
-    height: 310px;
+    /* height: 310px; */
     transform: translateY(80px);
-    width: 479px;
+    /* width: 479px; */
   }
    .div-svg-two {
     left: 55%;
